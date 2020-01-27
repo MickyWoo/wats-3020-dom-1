@@ -20,7 +20,7 @@ $(document).ready(function () {
       // TODO append a new item to the todo list that is a <li> element with two children: an <input> with type checkbox and a <label> with the inner text of the value of itemValue
 
       // shortcut isntead of multiple statments from Vanilla
-      $(".todo-list").append("<li> <input type= 'checkbox'> <label> " + itemList + "</label> </li>");
+      $(".todo-list").append("<li> <input type= 'checkbox'> <label> " + itemValue + "</label> </li>");
       // sets to 0
       itemList.val('');
       // TODO clear user input in the input box
